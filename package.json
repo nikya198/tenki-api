@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon ./dist/bin/www",
     "compile": "tsc",
-    "start": "node ./dist/bin/www"
+    "start": "node ./dist/bin/www.js",
+    "build": "tsc"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
